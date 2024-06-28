@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Avenir Next Rounded Std';
+    src: url('../Font/Avenir/AvenirNextRoundedStd-Reg.ttf');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../Font/Myriad/MYRIADPRO-REGULAR.woff');
+}
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../Font/Myriad/MYRIADPRO-BOLD.woff');
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../Font/Proxima/Proximanova-regular.otf');
+}
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../Font/Proxima/Proximanova-bold.otf');
+    font-weight: 700;
+}

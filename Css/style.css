@@ -1,0 +1,117 @@
+:root{
+    --green: #a1c927;
+    --red: #fd634d;
+    --black: #0c1119;
+}
+header{
+    height: 100vh;
+    background: url('../img/headerbg.jpg') 50%/cover;
+    text-align: center;
+    position: relative;
+}
+nav { padding: 40px 50px }
+#menu { padding-top: 10px }
+#menu li a{
+    font: 13px 'Avenir Next Rounded Std';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Avenir Next Rounded Std";
+}
+#slogan{
+    position: absolute; 
+    width: 100%;
+    bottom: 16%;
+}
+h1, h3 {
+    font-family: 'Myriad Pro';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h2{ font: 300 2em 'Open Sans'}
+h4{ font: 400 1em Montserrat}
+h1 { font-size: 2em;}
+#articles{padding: 50px;}
+#articles i { font-size: 3em }
+#articles p { font: 0.8em/1.5 'Proxima Nova'; padding: 1em 0; }
+#articles article{ padding: 20px;}
+footer i{ font-size: 2em; margin-left: 20px;}
+footer h3{font: 400 1em 'Open Sans';}
+footer p{ font: 400 14px 'Open Sans';
+    color: #8297a7;
+    padding-top: 10px;
+}
+
+.padded{  padding: 50px 40px}
+.paddedfooter{  padding: 25px 20px}
+.bggreen{background: var(--green);}
+.bgred{background: var(--red) ;}
+.bgblack{ background: var(--black);}
+.bgwhite{background: white;}
+.whitetxt{ color: #fff;}
+.redtxt{ color: var(--red);}
+.greentxt{ color:var(--green);}
+.mh50 { min-height: 50vh }
+.mw50 { min-width: 50vh;}
+.center{ text-align: center;}
+footer i{padding-top: 0px;}
+
+
+#fitnessfirst{ background: url('../img/fitnessfirst.jpg') center/cover;}
+#watching{ background: url('../img/youbody.jpg') center/cover;}
+#lifestyle{ background: url('../img/lifestyle.jpg') center/cover;}
+#summerman{ background: url('../img/summeroffun.jpg') center/cover;}
+#grapes{ background: url('../img/grape.jpg ') center/cover;}
+#avocado{ background: url('../img/mango.jpg') center/cover;}
+#manmountain{ background: url('../img/footerbg.jpg') center/cover; height: 100vh;}
+
+
+footer input, footer button{ padding: 20px ; display: block; margin: 20px auto; border-radius: 5px;}
+
+/*  Desktop  */
+@media only screen and (min-width: 768px) {
+    header{text-align: initial}
+    #menu{float: right}
+    #menu li{
+        display: inline-block;
+        margin-right: 4vw;
+    }
+    #slogan { 
+        width: initial;
+        left: 7vw
+    }
+    h1{
+        font-size: 2.5em
+    }
+    .header h3{
+        text-align: right;
+        padding: 10px 20px;
+    }
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    #articles h3{
+        padding: 10px 0;
+    }
+    footer i{padding-top: 10px;
+    }
+    .inline{ display: inline; margin: 10px;}
+    #nameinput{ padding: 20px 50px; display: block;  border-radius: 5px; }
+    #emailinput{ padding: 20px 50px; display: block;  border-radius: 5px;}
+    footer button { padding: 20px; display:block;  border-radius: 5px;}
+
+    .col25 { width: 25% }
+    .col33 { width: 33.33% }
+    .col66 { width: 66.66% }
+    .fleft { float: left }
+    .fright { float: right }
+}
